@@ -1,9 +1,11 @@
 # Energy Prediction Model for research project
-This repository contains the Energy Prediction Model program in KICT R&D project call ERC, designed to predict energy consumption based on a pre-trained deep learning model. You can download [the trained model](https://drive.google.com/drive/folders/1-wKivitvpK1PJbNFvKjvy77hqg7R1siX?usp=sharing) for energy prediction.
+This repository contains the Energy Prediction Model program in KICT R&D project call ERC, designed to predict energy consumption based on a pre-trained deep learning model. You can download [the trained model](https://drive.google.com/drive/folders/1-wKivitvpK1PJbNFvKjvy77hqg7R1siX?usp=sharing) like below.
+
+<img src="https://github.com/mac999/building_energy_prediction_model/blob/main/wandb.png" width="600" /></br>
+
 It supports both a command-line interface (CLI) and a web-based interface for predictions.
 
 <img src="https://github.com/mac999/building_energy_prediction_model/blob/main/UI.png" width="600" /></br>
-<img src="https://github.com/mac999/building_energy_prediction_model/blob/main/wandb.png" width="600" /></br>
 
 ## Table of Contents
 - [Overview](#overview)
