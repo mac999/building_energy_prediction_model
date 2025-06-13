@@ -115,10 +115,10 @@ python dce_prediction_mode.py --model_file ./config/config.json --input_folder .
 
 | Argument          | Description                                    |
 | :---------------- | :--------------------------------------------- |
-| `--model_file`    | Path to the configuration file (`config.json`)[cite: 11]. |
-| `--input_folder`  | Folder containing input CSV files[cite: 11].  |
-| `--output_folder` | Folder to save prediction results[cite: 11].  |
-| `--webapp_server` | Whether to run in web UI mode (`False` for CLI mode)[cite: 11]. |
+| `--model_file`    | Path to the configuration file (`config.json`). |
+| `--input_folder`  | Folder containing input CSV files.  |
+| `--output_folder` | Folder to save prediction results.  |
+| `--webapp_server` | Whether to run in web UI mode (`False` for CLI mode). |
 
 Upon completion, predicted CSV files with the same filenames will be generated in the `output` folder, including a `Predicted_EnergyConsumption` column[cite: 12].
 
