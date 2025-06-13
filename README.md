@@ -1,5 +1,6 @@
 # Energy Prediction Model for research
-This repository contains the Energy Prediction Model program in KICT R&D project call ERC, designed to predict energy consumption based on a pre-trained deep learning model. It supports both a command-line interface (CLI) and a web-based interface for predictions.
+This repository contains the Energy Prediction Model program in KICT R&D project call ERC, designed to predict energy consumption based on a pre-trained deep learning model. You can download [the trained model](https://drive.google.com/drive/folders/1-wKivitvpK1PJbNFvKjvy77hqg7R1siX?usp=sharing) for energy prediction.
+It supports both a command-line interface (CLI) and a web-based interface for predictions.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -24,12 +25,12 @@ This program acts as an energy prediction module. [cite_start]It utilizes a `con
 
 ## Features
 
-* [cite_start]**Flexible Model Configuration**: Model architecture and parameters are defined in a `config.json` file, allowing for easy modification and support for various model types.
-* [cite_start]**CLI Support**: Run predictions directly from the command line with specified input and output folders.
-* [cite_start]**Web Interface (Gradio)**: Provides a user-friendly browser-based UI for uploading model files and input CSVs, and downloading prediction results as a ZIP file.
-* [cite_start]**Data Preprocessing**: Handles missing values and offers an optional energy consumption filter based on a minimum threshold.
-* [cite_start]**MinMax Normalization**: Applies MinMax scaling for consistent model input.
-* [cite_start]**Output**: Adds a `Predicted_EnergyConsumption` column to the input CSVs, saving them to a specified output directory.
+* **Flexible Model Configuration**: Model architecture and parameters are defined in a `config.json` file, allowing for easy modification and support for various model types.
+* **CLI Support**: Run predictions directly from the command line with specified input and output folders.
+* **Web Interface (Gradio)**: Provides a user-friendly browser-based UI for uploading model files and input CSVs, and downloading prediction results as a ZIP file.
+* **Data Preprocessing**: Handles missing values and offers an optional energy consumption filter based on a minimum threshold.
+* **MinMax Normalization**: Applies MinMax scaling for consistent model input.
+* **Output**: Adds a `Predicted_EnergyConsumption` column to the input CSVs, saving them to a specified output directory.
 
 ## Files Description
 
