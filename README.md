@@ -41,8 +41,8 @@ This program acts as an energy prediction module. It utilizes a `config.json` fi
 | `dce_prediction_mode.py` | The main Python script for energy prediction.               |
 | [`config.json`](https://github.com/mac999/building_energy_prediction_model/blob/main/dce_predict_model.json)      | Model configuration, input variables, and normalization settings. |
 | [`model.pth`](https://drive.google.com/drive/folders/1-wKivitvpK1PJbNFvKjvy77hqg7R1siX?usp=sharing)        | The PyTorch file storing the trained model's parameters. |
-| `input/*.csv`      | Input data files for prediction.                  |
-| `output/*.csv`     | Output files where prediction results will be saved (automatically generated). |
+| `predict_input/*.csv`      | Input data files for prediction.                  |
+| `predict_output/*.csv`     | Output files where prediction results will be saved (automatically generated). |
 
 ## config.json Structure
 
