@@ -67,15 +67,15 @@ Below is an example structure of the `config.json` file:
 
 | Item              | Description                                                                       |
 | :---------------- | :-------------------------------------------------------------------------------- |
-| `"model"`         | Type of model to use (currently only "mlp" is supported)[cite: 9].               |
-| `"input_cols"`    | List of columns to use from the input CSV[cite: 9].                              |
-| `"filter_energy"` | Minimum energy consumption threshold for filtering (EnergyConsumption > 120)[cite: 9]. |
-| `"dataset_ratio"` | Ratio used during data training (not used during prediction)[cite: 9].           |
-| `"hidden_size"`   | Number of neurons in each hidden layer of the MLP[cite: 9].                      |
-| `"dropout_ratio"` | Dropout ratio (for preventing overfitting; 0.0 means no dropout)[cite: 9].       |
-| `"batch_size"`    | Batch size used during training (irrelevant for prediction)[cite: 9].            |
-| `"epochs"`        | Number of training epochs (irrelevant for prediction)[cite: 9].                  |
-| `"model_fname"`   | File path of the trained model (`.pth` format)[cite: 9].                         |
+| `"model"`         | Type of model to use (currently only "mlp" is supported, but it supports "mlp", "lstm", "ucm" in deep learning model source code which will be released).               |
+| `"input_cols"`    | List of columns to use from the input CSV.                              |
+| `"filter_energy"` | Minimum energy consumption threshold for filtering (EnergyConsumption > 120). |
+| `"dataset_ratio"` | Ratio used during data training (not used during prediction).           |
+| `"hidden_size"`   | Number of neurons in each hidden layer of the MLP.                      |
+| `"dropout_ratio"` | Dropout ratio (for preventing overfitting; 0.0 means no dropout).       |
+| `"batch_size"`    | Batch size used during training (irrelevant for prediction).            |
+| `"epochs"`        | Number of training epochs (irrelevant for prediction).                  |
+| `"model_fname"`   | File path of the trained model (`.pth` format).                         |
 
 ## Input CSV File Requirements
 
