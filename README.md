@@ -149,23 +149,23 @@ Temperature,Humidity,Insolation,week,TempDiff,Predicted_EnergyConsumption
 
 ## Prediction Process Summary
 
-1.  Load model structure and input column information from `config.json`[cite: 13].
-2.  Load the trained model (`.pth`) into memory[cite: 13].
+1.  Load model structure and input column information from `config.json`.
+2.  Load the trained model (`.pth`) into memory.
 3.  Iterate through each input CSV file, performing the following steps:
-    * Remove missing values[cite: 13].
-    * Apply energy filtering if necessary[cite: 13].
-    * Generate model input values after MinMax normalization[cite: 13].
-    * Perform model prediction[cite: 13].
-    * Generate the result file after inverse normalization[cite: 13].
+    * Remove missing values.
+    * Apply energy filtering if necessary.
+    * Generate model input values after MinMax normalization.
+    * Perform model prediction.
+    * Generate the result file after inverse normalization.
 
 ## Error Handling and Notes
 
 | Situation                                | Action / Message                                       |
 | :--------------------------------------- | :----------------------------------------------------- |
-| No input CSV files                       | Displays "`no input file.`" message[cite: 14].     |
-| Missing input columns                    | Prediction failure or empty results[cite: 14].      |
-| Model type is not `"mlp"`                | `NotImplementedError` occurs[cite: 14].             |
-| Corrupted model file                     | PyTorch `load_state_dict` failure[cite: 14].        |
+| No input CSV files                       | Displays "`no input file.`" message.     |
+| Missing input columns                    | Prediction failure or empty results.      |
+| Model type is not `"mlp"`                | `NotImplementedError` occurs.             |
+| Corrupted model file                     | PyTorch `load_state_dict` failure.        |
 
 ## Directory Structure
 
@@ -176,10 +176,10 @@ project/
 │   └── config.json
 ├── models/
 │   └── model_20250519-1341_8_train_best.pth
-├── input/
+├── input_predict/
 │   ├── day1.csv
 │   └── day2.csv
-└── output/
+└── output_predict/
     ├── day1.csv
     └── day2.csv
 ```
